@@ -1,0 +1,24 @@
+{
+  "name": "WebpackSeries",
+  "version": "1.0.0",
+  "description": "This project contains code snippets for Medium series on Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test_copy_assets": "rimraf dist && webpack --config webpack.cpassets.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sudheer-Reddy/WebpackSeries.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sudheer-Reddy/WebpackSeries/issues"
+  },
+  "homepage": "https://github.com/Sudheer-Reddy/WebpackSeries#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.3.1",
+    "webpack": "^3.10.0"
+  }
+}
